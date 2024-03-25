@@ -7,8 +7,7 @@ The project focuses on a dataset from a telecommunications company to predict if
 
 <center>
 
-[![yprofile-online-video-cutter-com.gif](https://i.postimg.cc/L5632mwF/yprofile-online-video-cutter-com.gif)](https://postimg.cc/Pp9wMndS)
-
+![Tdeploy_online](./assets/deploy.gif)
 
 </center>
 
@@ -113,6 +112,10 @@ streamlit run deploy_streamlit.py
 
 Local URL: http://localhost:1010
 
+## 6. Running Online
+*Enter values on this page*
+
+[Churn_predictor_online](https://carlos93u-churn-predictor-streaml-deploydeploy-streamlit-svjdbo.streamlit.app/)
 ## 5. Libraries and documentation
 
 * [Python](https://www.python.org/doc/)
