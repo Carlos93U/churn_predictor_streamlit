@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import streamlit as st
 
-with open("../models/churn_model.pkl", "rb") as f:
+with open("models/churn_model.pkl", "rb") as f:
     trained_model = pickle.load(f)
 
 st.set_page_config(page_title="Churn Predictor")
