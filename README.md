@@ -1,8 +1,8 @@
-# CHURN_PREDICTOR | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" height=20> | <img src="https://i.postimg.cc/cHqB5VtL/scikit-learn-logo.png" height=20>| <img src="https://pandas.pydata.org/static/img/pandas_white.svg" height=20>  | <img src="https://i.postimg.cc/m2dwfTdm/numpy-logo.png" height=20> |  <img src="https://matplotlib.org/_static/logo_dark.svg" height=20> | <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height=20> | <img src="https://assets.ydata.ai/oss/ydata-profiling_red.png" height=20> |[<img src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png" height=20> ](https://github.com/Carlos93U) | [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" height=20>](https://www.linkedin.com/in/juan-carlos-huillcas/) |
+# CHURN_PREDICTOR_STREAMLIT | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" height=20> | <img src="https://i.postimg.cc/cHqB5VtL/scikit-learn-logo.png" height=20>| <img src="https://pandas.pydata.org/static/img/pandas_white.svg" height=20>  | <img src="https://i.postimg.cc/m2dwfTdm/numpy-logo.png" height=20> |  <img src="https://matplotlib.org/_static/logo_dark.svg" height=20> | <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height=20> | <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-lighttext.png" height=20> |[<img src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png" height=20> ](https://github.com/Carlos93U) | [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" height=20>](https://www.linkedin.com/in/juan-carlos-huillcas/) |
 
 ## 1. Resume
 
-The project focuses on a dataset from a telecommunications company to predict if customers will churn. It utilizes the scikit-learn library, specifically the binomial logistic regression model. The analysis involves exploring relevant variables and implementing the model to predict churn. The aim is to understand the factors influencing customer churn and provide a strategy to retain them using supervised learning techniques.
+The project focuses on a dataset from a telecommunications company to predict if customers will churn. It utilizes the scikit-learn library, specifically the binomial logistic regression model. The analysis involves exploring relevant variables and implementing the model to predict churn. The aim is to understand the factors influencing customer churn and provide a strategy to retain them using supervised learning techniques. Deployment of an ML model with Streamlit to predict churn in telecommunications, optimizing customer retention.
 
 
 <center>
@@ -65,9 +65,12 @@ pip install -r requirements.txt
 
 ## 4. Running
 
-* *Open a churn predictor notebook*
-* *Run All*
-* *See outputs*
+*Open a churn predictor notebook*
+
+*Run All*
+
+*See outputs*
+
 
 Correlation values about target variable:
 
@@ -90,6 +93,25 @@ Top 10 variables that contrinute to churn
 * Having a two-year contract is a good indicator that the user will not churn from the company.
 * Variables contributing the most precision to the model can be selected progressively.
 
+## 5. Running deploy
+
+*Change directory*
+
+```
+cd deploy
+```
+
+*run on terminal*
+
+```
+streamlit run deploy_streamlit.py
+```
+
+*Open your local host*
+
+*For example:*
+
+Local URL: http://localhost:1010
 
 ## 5. Libraries and documentation
 
@@ -99,7 +121,7 @@ Top 10 variables that contrinute to churn
 * [numpy](https://numpy.org/)
 * [matplotlib](https://matplotlib.org/)
 * [seaborn](https://seaborn.pydata.org/index.html#)
-* [ydata_profiling](https://docs.profiling.ydata.ai/latest/)
+* [streamlit](https://streamlit.io/)
 
 ## 6. Sources
 * [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
